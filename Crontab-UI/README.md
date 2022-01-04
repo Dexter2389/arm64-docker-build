@@ -1,6 +1,6 @@
 # Crontab-UI ARM64 Docker build
 
-[![Crontab-UI ARM64 Build](https://github.com/Dexter2389/focalboard-arm64-docker-build/actions/workflows/crontab-ui-build.yml/badge.svg)](https://github.com/Dexter2389/focalboard-arm64-docker-build/actions/workflows/crontab-ui-build.yml)
+[![Crontab-UI ARM64 Build](https://github.com/Dexter2389/arm64-docker-build/actions/workflows/crontab-ui-build.yml/badge.svg)](https://github.com/Dexter2389/arm64-docker-build/actions/workflows/crontab-ui-build.yml)
 
 [Crontab-UI](https://github.com/alseambusher/crontab-ui) is an easy and safe way to manage your crontab file.
 

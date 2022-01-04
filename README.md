@@ -5,10 +5,10 @@ Recently I was working on building my own RaspberryPi Home Server. While buildin
 ## Projects Added
 
 - Crontab-UI: Easy and safe way to manage your crontab file.
-[![Crontab-UI ARM64 Build](https://github.com/Dexter2389/focalboard-arm64-docker-build/actions/workflows/crontab-ui-build.yml/badge.svg)](https://github.com/Dexter2389/focalboard-arm64-docker-build/actions/workflows/crontab-ui-build.yml)
+[![Crontab-UI ARM64 Build](https://github.com/Dexter2389/arm64-docker-build/actions/workflows/crontab-ui-build.yml/badge.svg)](https://github.com/Dexter2389/arm64-docker-build/actions/workflows/crontab-ui-build.yml)
 
 - Focalboard: Open source, self-hosted alternative to Trello, Notion, and Asana.
-[![Focalboard ARM64 Build](https://github.com/Dexter2389/focalboard-arm64-docker-build/actions/workflows/focalboard-build.yml/badge.svg)](https://github.com/Dexter2389/focalboard-arm64-docker-build/actions/workflows/focalboard-build.yml)
+[![Focalboard ARM64 Build](https://github.com/Dexter2389/arm64-docker-build/actions/workflows/focalboard-build.yml/badge.svg)](https://github.com/Dexter2389/arm64-docker-build/actions/workflows/focalboard-build.yml)
 
 ## Acknowledgment
 

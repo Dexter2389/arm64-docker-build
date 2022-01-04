@@ -1,6 +1,6 @@
 # Focalboard ARM64 Docker build
 
-[![Focalboard ARM64 Build](https://github.com/Dexter2389/focalboard-arm64-docker-build/actions/workflows/focalboard-build.yml/badge.svg)](https://github.com/Dexter2389/focalboard-arm64-docker-build/actions/workflows/focalboard-build.yml)
+[![Focalboard ARM64 Build](https://github.com/Dexter2389/arm64-docker-build/actions/workflows/focalboard-build.yml/badge.svg)](https://github.com/Dexter2389/arm64-docker-build/actions/workflows/focalboard-build.yml)
 
 [Focalboard](https://www.focalboard.com) is an open source, self-hosted project management tool that's an alternative to Trello, Notion, and Asana.
 
