@@ -56,6 +56,7 @@ jobs:
         with:
           user: ${{ secrets.DOCKER_USERNAME }}
           pass: ${{ secrets.DOCKER_PASSWORD }}
+          readme: ./Focalboard/README.md
           slug: ${{ env.DOCKERHUB_REPO }}
 
       - name: Build and Push - rc
@@ -64,7 +65,7 @@ jobs:
         with:
           builder: ${{ steps.buildx.outputs.name }}
           context: .
-          file: ./Dockerfile
+          file: ./Focalboard/Dockerfile
           platforms: linux/arm64
           push: true
           build-args: FOCALBOARD_REF=${{github.event.client_payload.release_tag}}
@@ -78,7 +79,7 @@ jobs:
         with:
           builder: ${{ steps.buildx.outputs.name }}
           context: .
-          file: ./Dockerfile
+          file: ./Focalboard/Dockerfile
           platforms: linux/arm64
           push: true
           build-args: FOCALBOARD_REF=${{github.event.client_payload.release_tag}}

@@ -37,7 +37,7 @@ I wanted to setup Focalboard on my RaspberryPi 4, but since they don't have an o
 version: "3"
 services:
     focalboard:
-        image: dexter2389/focalboard-arm64-docker-build:latest
+        image: dexter2389/focalboard:latest
         container_name: focalboard
         ports:
             - 9889:8000
