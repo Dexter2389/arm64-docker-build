@@ -1,6 +1,7 @@
 # Fetch latest changes from Github
 FROM alpine/git:latest as repo
-RUN git clone -b main --depth 1 https://github.com/mattermost/focalboard.git /focalboard
+ARG FOCALBOARD_REF
+RUN git clone -b ${FOCALBOARD_REF} --depth 1 https://github.com/mattermost/focalboard.git /focalboard
 
 # Build webapp
 FROM node:16.3.0-alpine as nodebuild
