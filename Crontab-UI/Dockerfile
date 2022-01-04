@@ -21,4 +21,4 @@ ENV   CRON_IN_DOCKER true
 
 EXPOSE 8000/tcp
 
-CMD ["supervisord", "-c", "/etc/supervisord.conf"]
+ENTRYPOINT ["supervisord", "-c", "/etc/supervisord.conf"]
