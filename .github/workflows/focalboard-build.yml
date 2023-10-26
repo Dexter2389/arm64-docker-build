@@ -5,7 +5,7 @@ env:
 
 # Trigger on release
 on:
-  workflow_dispatch:
+  repository_dispatch:
     types: [focalboard]
     branches: [main]
     client_payload:
